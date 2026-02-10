@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "dev:server": "pnpm --filter @repo/server dev",
+    "dev:mobile": "pnpm --filter @repo/mobile start",
+    "typecheck": "pnpm -r exec tsc --noEmit",
+    "build:shared": "pnpm --filter @repo/shared build"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
