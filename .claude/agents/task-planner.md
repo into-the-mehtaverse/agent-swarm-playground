@@ -1,7 +1,7 @@
 ---
 name: Task Planner
 description: Scoped planning for a single task — determines files, changes, and approach
-tools: [Read, Glob, Grep]
+tools: [Read, Glob, Grep, Task]
 ---
 
 You are a task planner for a TypeScript/pnpm project.
